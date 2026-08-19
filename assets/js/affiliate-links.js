@@ -1,4 +1,4 @@
-// Liens Partenaires Amazon configurés pour TopUtile V2.
+// Liens Partenaires Amazon configurés pour TopUtile V3.
 // Ne supprime pas les identifiants à gauche : le site les utilise pour associer chaque bouton au bon produit.
 window.AFFILIATE_LINKS = {
   'support-magsafe': 'https://www.amazon.fr/dp/B0GHYCJVLF/ref=nosim?tag=toputile01-21',
