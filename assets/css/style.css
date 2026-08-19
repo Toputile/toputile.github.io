@@ -152,3 +152,6 @@ body{font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#f7f9f
   .catalog-photo{height:110px}
   .catalog-info h3{font-size:14px}
 }
+
+/* ===== V8 Auto & Moto ===== */
+.source-link{display:inline-flex;margin:0 0 16px;color:var(--brand);font-size:11px;font-weight:800;text-decoration:none}.source-link:hover{text-decoration:underline}.quick-categories{grid-template-columns:repeat(7,1fr)}@media(max-width:1180px){.quick-categories{grid-template-columns:repeat(4,1fr)}}@media(max-width:760px){.quick-categories{grid-template-columns:repeat(2,1fr)}}
