@@ -4,7 +4,7 @@ function products(){return window.TOPUTILE_PRODUCTS||[]}
 function cats(){return window.TOPUTILE_CATEGORIES||[]}
 function byId(id){return products().find(p=>p.id===id)}
 function esc(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
-function photo(p,cls=''){return `<img class="${p.imageFit==='contain'?'contain ':''}${cls}" src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none';this.parentElement.classList.add('photo-fallback')">`}
+function photo(p,cls=''){return `<img class="${p.imageFit==='contain'?'contain ':''}${cls}" src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="if(this.dataset.fallback)return;this.dataset.fallback=1;this.src='assets/images/product-fallback.svg';this.classList.add('contain');this.parentElement.classList.add('photo-fallback')">`}
 function bindAmazonLinks(){document.querySelectorAll('[data-product-id]').forEach(a=>{const p=byId(a.dataset.productId);a.href=affiliateUrl(a.dataset.productId,a.dataset.query||p?.query||'');a.target='_blank';a.rel='nofollow sponsored noopener'})}
 function getFavs(){try{return JSON.parse(localStorage.getItem('toputile-favs')||'[]')}catch{return []}}
 function setFavs(v){localStorage.setItem('toputile-favs',JSON.stringify(v));updateCounts()}
