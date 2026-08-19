@@ -1,5 +1,7 @@
-function amazonFallback(q){return 'https://www.amazon.fr/s?k='+encodeURIComponent(q)+'&tag=toputile01-21'}
-function affiliateUrl(id,q){const x=(window.AFFILIATE_LINKS||{})[id];return x&&x.trim()?x.trim():amazonFallback(q)}
+const AMAZON_TAG='toputile01-21';
+function amazonFallback(q){return 'https://www.amazon.fr/s?k='+encodeURIComponent(q)+'&tag='+AMAZON_TAG}
+function amazonAsin(asin){return 'https://www.amazon.fr/dp/'+encodeURIComponent(asin)+'/ref=nosim?tag='+AMAZON_TAG}
+function affiliateUrl(id,q){const x=(window.AFFILIATE_LINKS||{})[id];if(x&&x.trim())return x.trim();const p=byId(id);if(p&&p.asin)return amazonAsin(p.asin);return amazonFallback(q||(p&&p.query)||'')}
 function products(){return window.TOPUTILE_PRODUCTS||[]}
 function cats(){return window.TOPUTILE_CATEGORIES||[]}
 function byId(id){return products().find(p=>p.id===id)}
