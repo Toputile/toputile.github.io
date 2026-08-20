@@ -17,4 +17,4 @@ Version plus professionnelle de TopUtile, avec finition visuelle améliorée et 
 2. Ajouter un fichier → Téléverser des fichiers
 3. Envoyer tout le contenu du dossier `toputile-v7`
 4. Commit changes
-5. Ouvrir `https://toputile.github.io/` et faire Ctrl + F5
+5. Ouvrir `https://toputile.fr/` et faire Ctrl + F5

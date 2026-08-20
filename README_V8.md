@@ -29,4 +29,4 @@ Pour intégrer à grande échelle les images et métadonnées Amazon de façon d
 3. Ajouter un fichier → Téléverser des fichiers.
 4. Envoyer tout le contenu du dossier V8.
 5. Commit changes.
-6. Ouvrir `https://toputile.github.io/` puis faire Ctrl + F5.
+6. Ouvrir `https://toputile.fr/` puis faire Ctrl + F5.

@@ -31,7 +31,7 @@ TopUtile n'affiche volontairement pas de faux prix ni de fausse courbe d'histori
 2. Ajouter / téléverser tout le contenu de ce dossier à la racine du dépôt.
 3. Valider avec `Commit changes`.
 4. Attendre le déploiement GitHub Pages.
-5. Ouvrir `https://toputile.github.io/` puis faire `Ctrl + F5` si l'ancienne version reste en cache.
+5. Ouvrir `https://toputile.fr/` puis faire `Ctrl + F5` si l'ancienne version reste en cache.
 
 ## Fichiers principaux
 - `index.html` : accueil.

@@ -25,4 +25,4 @@ Dans le dépôt `toputile.github.io` :
 2. Envoyer tout le contenu de ce dossier V5.
 3. Valider avec Commit changes.
 4. Attendre le déploiement GitHub Pages.
-5. Ouvrir `https://toputile.github.io/?v=5` ou faire Ctrl+F5.
+5. Ouvrir `https://toputile.fr/?v=5` ou faire Ctrl+F5.

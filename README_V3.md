@@ -8,7 +8,7 @@ Cette V3 est volontairement plus minimaliste : moins de blocs, moins de texte à
 3. Sélectionne tout le contenu de ce dossier V3.
 4. Envoie les fichiers en conservant la même arborescence (`assets`, `guides`, etc.).
 5. Valide avec **Commit changes** sur la branche principale.
-6. Attends 1 à 3 minutes puis recharge `https://toputile.github.io/` avec Ctrl+F5 si nécessaire.
+6. Attends 1 à 3 minutes puis recharge `https://toputile.fr/` avec Ctrl+F5 si nécessaire.
 
 ## Liens Amazon
 Les liens déjà configurés sont conservés dans `assets/js/affiliate-links.js`.

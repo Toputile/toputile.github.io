@@ -39,7 +39,7 @@ Pour obtenir un comparateur complet avec prix automatiques, classement par prix 
 4. Envoyer tout le contenu du dossier V6 à la racine.
 5. Valider avec `Commit changes`.
 6. Attendre le déploiement GitHub Pages.
-7. Ouvrir `https://toputile.github.io/` puis effectuer un rechargement forcé si besoin.
+7. Ouvrir `https://toputile.fr/` puis effectuer un rechargement forcé si besoin.
 
 ## Fichiers principaux
 

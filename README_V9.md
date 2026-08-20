@@ -27,4 +27,4 @@ Les nouvelles fiches utilisent des visuels correspondant aux références citée
 2. Ajouter un fichier → Téléverser des fichiers
 3. Envoyer tout le contenu de V9
 4. Commit changes
-5. `Ctrl + F5` sur `https://toputile.github.io/`
+5. `Ctrl + F5` sur `https://toputile.fr/`

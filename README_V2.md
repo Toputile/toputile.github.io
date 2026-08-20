@@ -10,7 +10,7 @@ Cette archive contient la V2 complète du site.
 - transparence affiliation visible près des boutons ;
 - 10 guides conservés et réécrits dans un ton plus professionnel ;
 - liens Amazon Partenaires déjà intégrés ;
-- sitemap et robots.txt corrigés pour https://toputile.github.io/ ;
+- sitemap et robots.txt corrigés pour https://toputile.fr/ ;
 - menu mobile, recherche et filtres produits.
 
 ## Pour remplacer l'ancienne version sur GitHub
@@ -18,7 +18,7 @@ Cette archive contient la V2 complète du site.
 2. Supprime les anciens fichiers du site OU remplace-les par ceux de cette archive.
 3. Envoie TOUT le contenu de ce dossier à la racine du dépôt.
 4. Valide avec `Commit changes`.
-5. Attends 1 à 5 minutes puis ouvre https://toputile.github.io/.
+5. Attends 1 à 5 minutes puis ouvre https://toputile.fr/.
 
 ## Important
 Le fichier `assets/js/affiliate-links.js` contient déjà les liens Amazon que tu as configurés pendant la conversation.
